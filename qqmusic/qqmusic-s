@@ -1,0 +1,2 @@
+var option1 = {"open-url" : "qqmusic://qq.com/ui/openUrl?p=%7B%22url%22%3A%22https%3A%2F%2Fy.qq.com%2Fm%2Fnactcenterreact%2Fdist%2Findexnew.html%22%7D&source=https%3A%2F%2Fy.qq.com%2Fm%2Fnactcenterreact%2Fdist%2Findexnew.html"}
+$notify("QQ音乐", "", "活动中心签到跳转", option1)
