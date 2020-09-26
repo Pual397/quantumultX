@@ -27,10 +27,8 @@ var $httpClient = isSurge ? $httpClient : {};
 var $prefs = isQuantumultX ? $prefs : {};
 var $persistentStore = isSurge ? $persistentStore : {};
 // 消息通知
-/*
 var $notify = isQuantumultX ? $notify : {};
 var $notification = isSurge ? $notification : {};
-*/
 // #endregion 固定头部
 
 // #region 网络请求专用转换
@@ -137,8 +135,6 @@ if (isSurge) {
 // #endregion
 
 // #region 消息通知
-$notify(title, subTitle, detail)
-/*
 if (isQuantumultX) {
     $notification = {
         post: (title, subTitle, detail) => {
@@ -151,7 +147,6 @@ if (isSurge) {
         $notification.post(title, subTitle, detail);
     }
 }
-*/
 // #endregion
 
 /*
