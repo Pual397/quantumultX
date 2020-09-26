@@ -135,6 +135,8 @@ if (isSurge) {
 // #endregion
 
 // #region 消息通知
+$notify(title, subTitle, detail)
+/*
 if (isQuantumultX) {
     $notification = {
         post: (title, subTitle, detail) => {
@@ -146,7 +148,7 @@ if (isSurge) {
     $notify = function (title, subTitle, detail) {
         $notification.post(title, subTitle, detail);
     }
-}
+}*/
 // #endregion
 
 /*
