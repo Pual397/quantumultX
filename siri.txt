@@ -1,7 +1,7 @@
 #!name= Location-Based Siri Suggestions for Spotlight & Look Up & Safari
 #!desc=All Function Location-Based Siri Suggestions(Siri建议) for Spotlight(聚焦搜索) & Look Up(查询) & Safari(Safari浏览器).
 
-[filter]
+[Rule]
 # > Look Up (查询, macOS, Wikipedia, Surge Enhance Mode enabled required)
 # PROCESS-NAME,LookupViewService,proxy
 # PROCESS-NAME,/System/Library/PrivateFrameworks/Lookup.framework/Versions/A/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService,proxy
