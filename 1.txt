@@ -12,4 +12,4 @@ hostname = api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,ap
 ^http://.+/amdc/mobileDispatch url script-request-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 #京东历史价和返利#
-^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/Tartarus2014/Script/master/jdjf_price.js
+#^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/Tartarus2014/Script/master/jdjf_price.js
