@@ -1,0 +1,25 @@
+#Tencent qq音乐 拦截规则
+DOMAIN-SUFFIX,bugly.qq.com
+DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,rqd.qq.com
+DOMAIN,mi.gdt.qq.com
+DOMAIN,btrace.qq.com
+DOMAIN,mtrace.qq.com
+DOMAIN,oth.eve.mdt.qq.com
+DOMAIN,oth.bls.mdt.qq.com
+DOMAIN,oth.str.mdt.qq.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,pingma.qq.com
+DOMAIN,pingtcss.qq.com
+DOMAIN,splashqqlive.gtimg.com
+DOMAIN,tajs.qq.com
+DOMAIN,access-sngapm.qcloud.com
+DOMAIN,adstats.tencentmusic.com
+DOMAIN,ad.tencentmusic.comT
+DOMAIN,adcdn.tencentmusic.com
+DOMAIN,adexpo.tencentmusic.com
+DOMAIN,adclick.tencentmusic.com
+DOMAIN,p.l.qq.com
+DOMAIN-SUFFIX,beacon.qq.com
+DOMAIN-SUFFIX,sngdia.imtmp.net
