@@ -1,5 +1,5 @@
-hostname = api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,api.m.jd.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com
-#2021.12.01 取消比价功能
+hostname = api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com
+#2021.12.01 取消比价功能 ,trade-acs.m.taobao.com,api.m.jd.com
 
 #奈飞评分
 ^https?://ios(-.*)?\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
