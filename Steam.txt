@@ -1,0 +1,19 @@
+# Steam
+HOST-SUFFIX,fanatical.com
+HOST-SUFFIX,humblebundle.com
+HOST-SUFFIX,underlords.com
+HOST-SUFFIX,valvesoftware.com
+HOST-SUFFIX,playartifact.com
+HOST-SUFFIX,steam-chat.com
+HOST-SUFFIX,steamcommunity.com
+HOST-SUFFIX,steamgames.com
+HOST-SUFFIX,steampowered.com
+HOST-SUFFIX,steamstatic.com
+HOST-SUFFIX,steamstat.us
+HOST,steambroadcast.akamaized.net
+HOST,steamcdn-a.akamaihd.net
+HOST,steamcommunity-a.akamaihd.net
+HOST,steamstore-a.akamaihd.net
+HOST,steamusercontent-a.akamaihd.net
+HOST,steamuserimages-a.akamaihd.net
+HOST,steampipe.akamaized.net
