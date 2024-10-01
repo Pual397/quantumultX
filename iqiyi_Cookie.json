@@ -1,0 +1,6 @@
+[rewrite_local]
+# 爱奇艺获取Cookie
+^https:\/\/passport\.iqiyi\.com\/apis\/user\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+
+[mitm]
+hostname= passport.iqiyi.com
