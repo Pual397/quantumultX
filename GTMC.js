@@ -9,5 +9,5 @@
 #禁用更新检测
 ^https:\/\/carapp\.gtmc\.com\.cn\/api\/appgtmc\/appVersion\/AppVersionManager\/checkNewAppVersion\.json url reject-dict
 #不知道是什么
-^https:\/\/carapp\.gtmc\.com\.cn\/\/bff\/app\/servicePage\/service\/queryAgreementData url reject-dict
+#^https:\/\/carapp\.gtmc\.com\.cn\/\/bff\/app\/servicePage\/service\/queryAgreementData url reject-dict
 hostname = carapp.gtmc.com.cn
