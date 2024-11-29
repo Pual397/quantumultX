@@ -2,12 +2,17 @@
 ^https:\/\/carapp\.gtmc\.com\.cn\/bff\/app\/advert\/cmsManage\/queryAdvertList url reject-dict
 #XX列表
 ^https:\/\/carapp\.gtmc\.com\.cn\/bff\/app\/servicePage\/service\/getEnjoyList url reject-dict
-#保养预约、悦享加油、ETC、故障灯查询
+#服务页面保养预约、悦享加油、ETC、故障灯查询等等按钮
 ^https:\/\/carapp\.gtmc\.com\.cn\/bff\/app\/servicePage\/service\/getServiceDataByType url reject-dict
 #数字展馆
 ^https:\/\/carapp\.gtmc\.com\.cn\/bff\/app\/servicePage\/service\/getBrandPavilion url reject-dict
 #禁用更新检测
 ^https:\/\/carapp\.gtmc\.com\.cn\/api\/appgtmc\/appVersion\/AppVersionManager\/checkNewAppVersion\.json url reject-dict
 #不知道是什么
-#^https:\/\/carapp\.gtmc\.com\.cn\/\/bff\/app\/servicePage\/service\/queryAgreementData url reject-dict
+^https:\/\/carapp\.gtmc\.com\.cn\/\/bff\/app\/servicePage\/service\/queryAgreementData url reject-dict
+#礼物图标
+^https:\/\/carapp\.gtmc\.com\.cn\/bff\/app\/saveCustomer\/bottomBar\/getIconSubscript url reject-dict
+#悦享页
+#^https:\/\/carapp\.gtmc\.com\.cn\/fyyxApp\/* url reject-dict
+
 hostname = carapp.gtmc.com.cn
