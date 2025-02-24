@@ -14,5 +14,7 @@
 ^https:\/\/carapp\.gtmc\.com\.cn\/bff\/app\/saveCustomer\/bottomBar\/getIconSubscript url reject-dict
 #悦享页
 #^https:\/\/carapp\.gtmc\.com\.cn\/fyyxApp\/* url reject-dict
+#我的底部活动横幅
+^https:\/\/carapp\.gtmc\.com\.cn\/bff\/app\/saveCustomer\/myTab\/getBannerActivity url reject-dict
 
-hostname = carapp.gtmc.com.cn
+hostname = carapp。gtmc。com。cn
