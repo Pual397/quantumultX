@@ -1,0 +1,4 @@
+#腾讯手游加速器去广告
+hostname=adsmind.gdtimg.com
+#贴片视频
+^https?:\/\/adsmind\.gdtimg\.com url reject-dict
