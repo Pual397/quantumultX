@@ -1,0 +1,4 @@
+hostname = h5.if.qidian.com
+
+#屏蔽福利中心看完视频的奖励提示
+^https:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/finishWatch url reject-dict
